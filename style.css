@@ -100,6 +100,40 @@
     margin-right: 3rem;
 }
 
+#opportunities {
+    width: 100%;
+    border: 2px solid black;
+}
+.exams {
+    margin-left: 2rem;
+    border-radius: 5%;
+    width: 30%;
+    height: 20rem;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border: 2px solid black;
+}
+.internships {
+    border-radius: 5%;
+    margin-left: 33%;
+    width: 30%;
+    height: 20rem;
+    margin-top: -20rem;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border: 2px solid black;
+}
+.jobs {
+    border-radius: 5%;
+    margin-left: 66%;
+    width: 30%;
+    height: 20rem;
+    margin-top: -20rem;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border: 2px solid black;
+}
+
 @media screen and (max-width: 600px) {
     .divone {
         width: 900px;
