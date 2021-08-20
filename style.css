@@ -1,0 +1,202 @@
+.nav-links {
+    display: inline;
+    display: flex;
+    text-align: center;
+}
+.nav-links li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: inline-block;
+}
+.Guide {
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    text-align: center;
+    background-color: rgb(94, 41, 74);
+    border: 3px solid black;
+    font-weight: 800;
+}
+.contry {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 800;
+    padding: 0;
+    background-color: rgb(158, 135, 149);
+    border: 1px solid black;
+}
+.nav-links li a {
+    color: rgb(20, 20, 10);
+    margin: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    /* font-weight: 700;
+    text-size-adjust: 20px;
+    transition: color 0.5s; */
+}
+.divone {
+    display: flex;
+    flex-direction: column;
+}
+.left {
+    width: 35%; 
+    float: left;
+    text-align: left;
+    padding-left: 8rem;
+    padding-top: 19rem;
+    font-size: 3rem;
+    font-weight: 600
+}
+.right {
+    width :100%;
+    margin-left: 35%;
+    margin-top: -32rem;
+    padding-top: -25rem;
+}
+.learn-more {
+    border: 2px solid black;
+    border-radius: 200%;
+    font-size: 2rem;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 5rem;
+    width: 70%;
+    background-color: black;
+}
+.divtwo {
+    padding-top: 9rem;
+    margin-top: 5rem;
+    display: flex;
+}
+.lefttwo {
+    background-color: black;
+    width: 35%;
+    float: left;
+    font-size: 3rem;
+    color: rgb(177, 199, 233);
+    text-align: center;
+    border: 2px solid rgb(15, 10, 10);
+}
+.right2 {
+    margin-top: 0rem;
+    padding-top: 0rem;
+}
+.we-are {
+    vertical-align: middle;
+    line-height: 290px;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.to {
+    font-size: 8rem;
+}
+.support {
+    margin-top: -3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+    .divone {
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid rgb(20, 15, 15);
+    }
+    .left {
+        width: 400px; 
+        text-align: left;
+        font-size: 3rem;
+        font-weight: 600;
+        border: 2px solid rgb(58, 21, 224);
+    }
+    .right {
+        width :600px;
+        padding-top: 0rem;
+        margin-left: 0%;
+        margin: auto;
+        height: 8rem;
+        width: 400px;
+        border: 2px solid rgb(128, 12, 12);
+    }
+    .divtwo {
+        border: 2px solid black;
+        padding-top: 0rem;
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .lefttwo {
+        background-color: black;
+        width: 600px
+        font-size: 3rem;
+        color: rgb(177, 199, 233);
+        text-align: center;
+        border: 2px solid rgb(15, 10, 10);
+    }
+    .right2 {
+        width: 400px;
+        margin-top: 0rem;
+        padding-top: 0rem;
+        border: 2px solid black;
+    }
+    .we-are {
+        vertical-align: middle;
+        line-height: 290px;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .to {
+        font-size: 8rem;
+    }
+    .support {
+        margin-top: -3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .nav-links {
+        display: inline;
+        display: flex;
+        text-align: center;
+    }
+    .nav-links li {
+        padding-left: .5rem;
+        padding-right: .5rem;
+        display: inline-block;
+    }
+    .Guide {
+        padding-left: 1px;
+        padding-right: 1px;
+        font-size: 3rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        text-align: center;
+        background-color: rgb(94, 41, 74);
+        border: 3px solid black;
+        font-weight: 800;
+    }
+    .contry {
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 800;
+        padding: 0;
+        background-color: rgb(158, 135, 149);
+        border: 1px solid black;
+    }
+    .nav-links li a {
+        color: rgb(20, 20, 10);
+        margin: 2px;
+        padding-left: 1px;
+        padding-right: 1px;
+        font-size: 2rem;
+        text-decoration: none;
+        /* font-weight: 700;
+        text-size-adjust: 20px;
+        transition: color 0.5s; */
+    }
+    
+}
